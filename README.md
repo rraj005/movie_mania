@@ -66,9 +66,9 @@ Follow these steps to set up the project locally:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/movie-mania.git
+git clone https://github.com/rraj005/movie-mania.git
 cd movie-mania
-
+```
 ### 2️⃣ Install Dependencies
 ```bash
 npm install
