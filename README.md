@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# 🎬 Movie Mania
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A React-based movie search and trailer web app powered by the **OMDb API** and **YouTube Data API v3**, allowing users to search films, explore details, and watch official trailers seamlessly — all in one place.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📖 Table of Contents
 
-### `npm start`
+1. [Overview](#-overview)
+2. [Features](#-features)
+3. [Tech Stack](#-tech-stack)
+4. [Demo](#-demo)
+5. [Installation](#-installation)
+6. [API Setup](#-api-setup)
+7. [Project Structure](#-project-structure)
+8. [Routes Overview](#-routes-overview)
+9. [Screenshots](#-screenshots)
+10. [Author](#-author)
+11. [Future Enhancements](#-future-enhancements)
+12. [License](#-license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Overview
 
-### `npm test`
+**Movie Mania** is a lightweight React web application that integrates with **OMDb API** for movie metadata and **YouTube API** for official trailers.  
+It provides a clean and responsive UI to search for any movie, view its full details, and instantly play its trailer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is perfect for learning **React**, **API integration**, and **React Router** navigation.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🔍 **Search Movies** by title using OMDb API  
+- 🧾 **View Detailed Info** including poster, genre, cast, plot, and ratings  
+- ▶️ **Watch Official Trailers** fetched dynamically from YouTube  
+- 🧭 **Dynamic Routing** with React Router DOM  
+- 🔄 **Real-Time Query Updates**  
+- 💡 **Responsive Design** for desktop and mobile  
+- 🔗 **Creator Portfolio Link** on homepage  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧠 Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Category | Tools |
+|-----------|-------|
+| Frontend | React (Hooks, Functional Components) |
+| Routing  | React Router DOM |
+| APIs     | OMDb API, YouTube Data API v3 |
+| Styling  | Custom CSS |
+| Build Tool | Create React App or Vite |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 Demo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> Deployed version on **Netlify**
+> 🌐 https://movimaniaa.netlify.app/
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Follow these steps to set up the project locally:
 
-### Code Splitting
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/rraj005/movie-mania.git
+cd movie-mania
+```
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+### 3️⃣ Start the Development Server
+```bash
+npm start
+```
+### 4️⃣ Open in Browser
+```bash
+http://localhost:3000
+```
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+movie-mania/
+│
+├── src/
+│   ├── components/
+│   │   ├── SearchBar.js         # Search input + navigation
+│   │   ├── SearchResults.jsx    # Displays movie list from search
+│   │   ├── MovieCard.js         # Displays movie poster + title
+│   │   ├── MovieDetail.js       # Displays full movie info + trailer
+│   │
+│   ├── App.js                   # Main app + routes
+│   ├── App.css                  # Global styling
+│   └── index.js                 # Entry point
+│
+├── package.json
+└── README.md
+```
