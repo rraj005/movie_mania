@@ -72,15 +72,15 @@ cd movie-mania
 ### 2️⃣ Install Dependencies
 ```bash
 npm install
-
+```
 ### 3️⃣ Start the Development Server
 ```bash
 npm start
-
+```
 ### 4️⃣ Open in Browser
 ```bash
 http://localhost:3000
-
+```
 ## 📁 Project Structure
 
 ```bash
@@ -99,3 +99,4 @@ movie-mania/
 │
 ├── package.json
 └── README.md
+```
