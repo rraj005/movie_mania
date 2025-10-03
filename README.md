@@ -11,13 +11,9 @@
 3. [Tech Stack](#-tech-stack)
 4. [Demo](#-demo)
 5. [Installation](#-installation)
-6. [API Setup](#-api-setup)
 7. [Project Structure](#-project-structure)
-8. [Routes Overview](#-routes-overview)
-9. [Screenshots](#-screenshots)
-10. [Author](#-author)
-11. [Future Enhancements](#-future-enhancements)
-12. [License](#-license)
+8. [Author](#-author)
+9. [Future Enhancements](#-future-enhancements)
 
 ---
 
@@ -57,7 +53,7 @@ This project is perfect for learning **React**, **API integration**, and **React
 ## 🌐 Demo
 
 > Deployed version on **Netlify**
-> 🌐 https://movimaniaa.netlify.app/
+```bash https://movimaniaa.netlify.app/ ```
 
 ---
 
@@ -101,3 +97,20 @@ movie-mania/
 ├── package.json
 └── README.md
 ```
+## 👨‍💻 Author
+
+**[Raunit Raj](https://www.linkedin.com/in/raunit-raj)**  
+🎬 Developer of *Movie Mania*  
+💡 Confident All-Rounder Techie 
+
+> 💼 *Creator Portfolio:* [LinkedIn Profile](https://www.linkedin.com/in/raunit-raj)
+
+---
+
+## 🛠️ Future Enhancements
+
+- ⭐ Add Favorites / Watchlist  
+- 📱 Improve mobile responsiveness  
+- 💬 Add user reviews & comments  
+- 🎞️ Display related movies  
+- 🧭 Add genre-based filtering and sorting   
