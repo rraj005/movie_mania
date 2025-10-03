@@ -53,7 +53,7 @@ This project is perfect for learning **React**, **API integration**, and **React
 ## 🌐 Demo
 
 > Deployed version on **Netlify**
-```bash https://movimaniaa.netlify.app/ ```
+``` https://movimaniaa.netlify.app/ ```
 
 ---
 
